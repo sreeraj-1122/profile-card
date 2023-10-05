@@ -1,0 +1,142 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #ecf0f3;
+
+}
+.container{
+    padding: 30px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ecf0f3;
+    box-shadow: -4px -4px 7px #fff,
+                    4px 4px 5px #bababe;
+
+    border-radius: 10px;
+
+}
+.container .img-section{
+    width: 150px;
+    height: 150px;
+    background-color: #ecf0f3;
+    box-shadow: -4px -4px 7px #fff,
+                    4px 4px 5px #bababe;
+
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-section img{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    box-shadow: -4px -4px 7px #fff,
+    4px 4px 5px #bababe;
+
+    
+}
+.container .name{
+    font-size: 23px;
+    font-weight: 600;
+    color: #31344b;
+    margin: 10px 0 5px 0;
+    cursor: n;
+}
+.container .about{
+    font-size: 16px;
+    color:#44476a;
+    font-weight: 600;
+
+}
+.container .social-icons{
+    margin: 25px 0 25px 0;
+    
+}
+.social-icons a{
+   
+    padding: 13px;
+    margin-right: 10px;
+    border-radius: 50%;
+    box-shadow: -4px -4px 7px #fff,
+    4px 4px 5px #bababe;
+    text-decoration: none;
+}
+.social-icons a:hover{
+    box-shadow: -4px -4px 7px #b4adad,
+    4px 4px 5px #7d7d83;
+
+}
+.social-icons a.fb{
+    color: #426782;
+}
+.social-icons a.twitter{
+    color: #1da1f2;
+}
+.social-icons a.insta{
+    color: #e1306c;
+}
+.social-icons a.yt{
+    color: #ff0000;
+}
+.container .buttons{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    
+}
+.buttons button{
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: -4px -4px 7px #fff,
+    4px 4px 5px #bababe;
+    margin-right: 10px;
+    margin-top: 10px;
+    color: #31344b;
+    font-weight: 600;
+    cursor: pointer;
+    position: relative;
+
+
+}
+.buttons button:hover{
+    
+    box-shadow: -4px -4px 7px #b4adad,
+    4px 4px 5px #7d7d83;
+}
+
+.container .socia-share{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 30px;
+    padding: 0 5px;
+
+}
+.socia-share .row{
+    color: #31344b;
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: 900;
+}
